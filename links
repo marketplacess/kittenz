@@ -1,0 +1,79 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./_cc by_files/style.css">
+    <meta property="twitter:card" content="photo">
+    <meta property="twitter:title" content="kittenz.tk">
+    <meta property="twitter:description" content="current holder hz#3623">
+    <meta property="theme-color" content="#36393F">
+    <title> kittenz.tk  </title>
+    <meta name="description" content="hz#3623">
+    <meta http-equiv="refresh" content="120">
+    <meta name="keywords" content="real">
+    <meta name="author" content="hz">
+    <script src="./_cc by_files/embed.js.download"></script><style type="text/css">.shoppy-wrapper {
+    overflow-y: hidden;
+    position: fixed;
+    z-index: 999999;
+    background: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+</head>
+<body>
+    <script>
+        function MovingTitle(writeText, interval, visibleLetters) {
+            var _instance = {};
+
+            var _currId = 0;
+            var _numberOfLetters = writeText.length;
+
+            function updateTitle() {
+                _currId += 1;
+                if(_currId > _numberOfLetters - 1) {
+                    _currId = 0; 
+                }
+
+                var startId = _currId;
+                var endId = startId + visibleLetters;
+                var finalText;
+                if(endId < _numberOfLetters - 1) {
+                    finalText = writeText.substring(startId, endId);
+                } else {
+                    var cappedEndId = _numberOfLetters;
+                    endId = endId - cappedEndId;
+
+                    finalText = writeText.substring(startId, cappedEndId) +     writeText.substring(0, endId);
+                }
+
+                document.title = finalText; 
+            }
+
+            _instance.init = function() {
+                setInterval(updateTitle, interval);
+            };
+
+            return _instance;
+        }
+        var title = new MovingTitle("kittenz.tk     ", 300, 10);
+        title.init();
+    </script>
+
+    <img class="profile-picture">
+    
+    <div id="wrapper"></div>
+    <h1 class="glitch" data-text="kittenz">kittenz</h1>
+	
+        
+	    <a href="https://discord.gg/Sh9GzBCEkQ" target="_blank" class="links">Discord Server</a>
+      <a href="steamcommunity.com/id/phiz" target="_blank" class="links">Steam Account</a>
+               
+
+    <div class="bottom-text">hz#3623</div>
+    <script src="./_cc by_files/script.js.download"></script>
+
+</body></html>
