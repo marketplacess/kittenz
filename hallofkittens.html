@@ -48,7 +48,8 @@
             _instance.init = function() {
                 setInterval(updateTitle, interval);
             };
-
+        var title = new MovingTitle("kittenz.tk     ", 300, 10);
+        title.init();
             return _instance;
         }
 
@@ -57,7 +58,6 @@
     <img class="profile-picture">
     
     <div id="wrapper"></div>
-    <h1 class="glitch" data-text="kittenz">kittenz</h1>
 
   <center>----hall of kittens----<center>	
   <center>kaylana#7777<center>
